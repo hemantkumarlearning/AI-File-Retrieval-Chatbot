@@ -1,4 +1,4 @@
-# 🤖 AI-Powered Resume & CSV Q&A Chatbot
+# 🤖 AI-Powered Pdf & CSV Q&A Chatbot
 
 This is an AI-powered application that allows you to interact with structured CSV data and receive intelligent answers in natural language using LLaMA3 (via Groq), LangChain, and vector search. Built with a clean Streamlit interface for easy use.
 
@@ -6,7 +6,7 @@ This is an AI-powered application that allows you to interact with structured CS
 
 ## 🚀 Features
 
-- 🧠 Uses **LLaMA3-70B** model via **Groq API**
+- 🧠 Uses **LLaMA** model via **Groq API**
 - 📊 Upload and query structured data from a CSV file (`product.csv`)
 - 💬 Chat-style Q&A interface powered by **LangChain**
 - 🔎 Semantic search using **HuggingFace embeddings** and **ChromaDB**
