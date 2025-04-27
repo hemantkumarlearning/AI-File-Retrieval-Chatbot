@@ -37,7 +37,7 @@ llm = ChatGroq(
 retriever=vectordb.as_retriever()
 qa_chain = RetrievalQA.from_chain_type(llm=llm,retriever=retriever)
 
-st.title('Llama Chatbot')
+st.title('AI-Powered Q/A Chatbot')
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
