@@ -31,5 +31,27 @@ This is an AI-powered application that allows you to interact with structured CS
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/yourusername/llama-csv-chatbot.git
-cd llama-csv-chatbot
+git clone https://github.com/hemantkumarlearning/AI-File-Retrieval-Chatbot.git
+cd AI-File-Retrieval-Chatbot
+```
+
+2. **Install dependencies**
+
+```
+pip install -r requirements.txt
+```
+
+3. **Add your API key**
+
+Create a .env file in the root directory and add your Groq API key:
+
+```
+GROQ_API_KEY=your_groq_api_key_here
+```
+4. **Run the app**
+
+```
+streamlit run app.py
+```
+
+## Demo
